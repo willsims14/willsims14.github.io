@@ -70,9 +70,7 @@
     <div id="about">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
-                </div>
+                <div class="col-md-4"><h2 class="heading">About Me</h2></div>
                 <div class="col-md-8">
                     <p>
                         I am a software developer from the Nashville area who enjoys designing and building software. The collaborative process of thinking about how a system will be built and designed is as much fun and challenging as the process of writing the software and building the system. I've always had an interest in software, but I never considered it as a candidate for a career until I began studying Information Management during my time at the University of Tennessee, Knoxville. During my last year and a half at UT studying business, I took classes that involved building databases for a real company. That was the time when I began pursuing a career in software development. Now that I've completed a full-stack boot camp, I've integrated many different, small pieces of knowledge about technology and software into a bigger, more complete picture.
@@ -83,46 +81,49 @@
     </div>
     <!-- End #about -->
 
-        <div id="projects" class="background-alt">
+    <div id="projects" class="background-alt">
+    <div class="container">
         <h2 class="heading">Projects</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>MyGrades</h3>
-                        <p>Single Page CRUD Application</p>
-                        <p>
-                            MyGrades is an application for students to keep track of, and make calculations on, the grades they receive in their college or high school courses. The "What Do I Need" feature allows a student to calculate a grade that they need to get on an upcoming assignment (homework, exam, project, etc.) in order to get a specific grade (chosen by the user) in the course based on previous grades in the course. MyGrades was built using the Angular framework, with a hint of jQuery. MyGrades stores data using Google's Firebase platform, and was styled with Bootstrap.</p>
-                        <div>
-                            <a href="https://github.com/willsims14/My-Grades">GitHub Repository</a>
-                            <br>
-                            <a href="http://will-sims.com/My-Grades/">Deployed App</a>
-                        </div>
-                    </div>
-                    <!-- End .project-info -->
+        <div class="row">
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/project.jpg" />
                 </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
+                <!-- End .project-image -->
+                <div class="project-info">
+                    <h3>MyGrades</h3>
+                    <span>
+                        <p>Single Page Application</p>
+                        <p><small><i>Built with Javascript, AngularJS & Google Firebase</i></small></p>
+                    </span>
+                    <p>
+                        MyGrades is an application for students to keep track of, and make calculations on, the grades they receive in their college or high school courses. The "What Do I Need" feature allows a student to calculate a grade that they need to get on an upcoming assignment (homework, exam, project, etc.) in order to get a specific grade (chosen by the user) in the course based on previous grades in the course. MyGrades was built using the Angular framework, with a hint of jQuery. MyGrades stores data using Google's Firebase platform, and was styled with Bootstrap.</p>
+                    <div class="project-links-container">
+                        <a href="https://github.com/willsims14/My-Grades" class="project-link">GitHub Repository</a>
+                        <br>
+                        <a href="http://will-sims.com/My-Grades/" class="project-link">Deployed App</a>
                     </div>
-
-                    <div class="project-info">
-                        <h3>Djangazon</h3>
-                        <p>Django-Powered Web Application</p>
-                        <p>
-                            I worked on this project in a team of 4 people, and we followed the SCRUM Sprint methodology. We worked on this project for two week-long sprints. The Djangazon project is an e-commerce web application, similar to Amazon, that was built using the Django framework. Users can buy and sell products, like/dislike products, give ratings to purchased products, and recommend products to friends (via username). My team and I also built a recommendation engine that recommends products to users, based on the <a href="https://en.wikipedia.org/wiki/Jaccard_index">Jaccard Index's</a> similarity coefficient (relative to other user's like/dislike patterns). Check it out on GitHub!
-                        <div>
-                            <a href="https://github.com/solanum-tuberosums/djangazon">GitHub Repository</a>
-                        </div>
+                        <br>
+                </div>
+                <!-- End .project-info -->
+            </div>
+            <!-- End .project -->
+            <div class="project shadow-large">
+                <div class="project-image">
+                    <img src="images/project.jpg" />
+                </div>
+                <div class="project-info">
+                    <h3>Djangazon</h3>
+                    <p>E-Commerce Web Application</p>
+                    <p><small><i>Built with Python, the Django Framework & SQLite3</i></small></p>
+                    <p>
+                        I worked on this project in a team of 4 people, and we followed the SCRUM Sprint methodology. We worked on this project for two week-long sprints. The Djangazon project is an e-commerce web application, similar to Amazon, that was built using the Django framework. Users can buy and sell products, like/dislike products, give ratings to purchased products, and recommend products to friends (via username). My team and I also built a recommendation engine that recommends products to users, based on the <a href="https://en.wikipedia.org/wiki/Jaccard_index">Jaccard Index's</a> similarity coefficient (relative to other user's like/dislike patterns). Check it out on GitHub!
+                    <div class="project-links-container">
+                        <a href="https://github.com/solanum-tuberosums/djangazon" class="project-link">GitHub Repository</a>
+                    </div>
+                        <br>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -142,28 +143,23 @@
             <div data-date="January 2017 – June 2017">
                 <h3>Nashville Software School</h3>
                 <h4>Apprentice Software Developer</h4>
-                <p>
-                    A six month, full-time, immersive boot-camp that trains full-stack software developers. The first three months 
-                    cover front end web development. In these first three months, I worked with HTML, CSS, Javascript, jQuery, AngularJS, and flat data storage (specifically Google Firebase). At the end of the first three months I created a capstone project to showcase what I learned, it is called MyGrades.
-                    <br><br>
-                    The second three-month session covers back end software development. During the back end portion, I worked with Python, the Django framework, the Django REST Framework, Entity Relationship Diagrams (ERDs), and relational SQL databases.
-                    <br><br>
-                    Over the course of this six-month boot-camp, I consistently used Git and GitHub to manage project source and version control in group and individual settings. I was a part of many teams and learned to productively work with diverse groups of people with various backgrounds and perspectives. 
-                </p>
+                <div>
+                    <p>An immersive, full-time boot-camp that trains full-stack software developers for 6 months.</p><br>
+                    <p>During the first three-month session I created and contributed to many different projects. I built and styled static web apps with vanilla Javascript, HTML and CSS. As well, I built modular, single page applications using Immediately Invoked Functional Expressions (IIFEs), <a href="http://browserify.org/articles.html">Browserify</a> and <a href="https://angularjs.org/">AngularJS</a>. At the end of the first front-end session, I built a capstone project called MyGrades, links to it can be found below.</p><br>
+                    <p>In the second, back-end session, I built command line interfaces, web applications, and a truly RESTful API.
+                    I consistently used Python, the Django framework, and the Django REST Framework. I created Entity Relationship Diagrams (ERDs) and relational SQL databases. I created these SQL databases in two different ways, depending on how the project was going to be constructed. Using the django framework, I created and managed data models, and used Django's ORM to migrate the models into SQLite3 tables. I also manually created SQLite3 databases with SQL statements by using a simple database browser, <a href="http://sqlitebrowser.org/">DB Browser</a>.</p><br>
+                    <p>Over the course of this six-month boot-camp, I consistently used Git and GitHub to manage project source and version control. I occasionally worked on an individual projects, but spent most of my time working in diverse groups solving many different kinds of problems. My time at NSS was an incredible experience in which I productively worked with an awesome cohort of smart, good people.</p>
+                </div>
             </div>
 
 
         </div>
     </div>
-    <!-- End #experience -->
-
+    <!-- End NSS #experience -->
     <div id="education">
         <h2 class="heading">Education</h2>
-
-
         <div class="education-block">
             <h3>University of Tennessee</h3>
-
             <span class="education-date">August 2012 - December 2016</span>
             <br>
             <span>Bachelor of Science in Business Administration</span>
@@ -172,32 +168,14 @@
             <div><br><br></div>
             <div>
                 <p>Studied Business Management with a collateral in Information Management. During my time in Knoxville, I discovered that I enjoyed building databases and building the software to interact with databases more than what I was about receive a bachelor's degree in. This opportunity was possible because the business school at my University allows students to choose an area to receive a collateral degree in, and I chose Information Management. Around this time, I decided to pursue a career in software development by applying to the Nashville Software School.</p>
-
             </div>
         </div>
-
-<!--         <div class="education-block">
-                <h3>Nashville Software School</h3>
-                <span class="education-date">Jan 2017 - Jun 2017</span>
-                <h4>Full Stack Software Development</h4>
-                <p>
-                    Six month, full-time bootcamp with a curriculum that focuses on full stack software development.
-                </p>
-            </div>
-        </div> -->
-
-
-        <!-- End .education-block -->
     </div>
-    <!-- End #education -->
-
-
-
+    <!-- End UTK #education -->
     <div id="skills">
         <h2 class="heading">Skills / Technologies</h2>
         <div>
-            <ul>
-                
+            <ul>  
                 <div><h4>Front End</h4></div>
                 <div class="front-end-skills">
                     <li><a href="https://www.javascript.com/">JavaScript</a></li>
@@ -207,7 +185,6 @@
                     <li><a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">CSS</a></li>
                     <li><a href="http://sass-lang.com/guide">Sass/Scss</a></li>
                     <li><a href="https://gruntjs.com/">Grunt</a></li>
-                    <li><a href="https://docs.microsoft.com/en-us/dotnet/articles/visual-basic/">Visual Basic</a></li>
                 </div>
                 <div><h4>Back End</h4></div>
                 <div class="back-end-skills">
@@ -227,13 +204,10 @@
                     <li><a href="https://en.wikipedia.org/wiki/Command-line_interface">Linux Command Line</a></li>
                     <li><a href="https://en.wikipedia.org/wiki/Android_Studio">Android Studio</a></li>
                 </div>
-
             </ul>
         </div>
-
     </div>
     <!-- End #skills -->
-
     <div id="contact">
         <h2>Get in Touch</h2>
         <div id="contact-form">
@@ -247,7 +221,6 @@
         <!-- End #contact-form -->
     </div>
     <!-- End #contact -->
-
     <footer>
         <div class="container">
             <div class="row">
@@ -266,7 +239,6 @@
                         <li>
                             <a href="https://github.com/willsims14" target="_blank"><i class="fa fa-lg fa-github" aria-hidden="true"></i></a>
                         </li>
-
                         <li>
                             <a href="https://www.linkedin.com/in/willsimsiii/" target="_blank"><i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></a>
                         </li>
@@ -276,19 +248,9 @@
         </div>
     </footer>
     <!-- End footer -->
-
-
-
-
-
-
-
-
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
-
-
 </body>
-
 </html>
+
+
