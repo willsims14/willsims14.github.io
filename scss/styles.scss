@@ -629,6 +629,14 @@ footer {
     -------------------------------
 */
 
+.project-link{
+    margin-top:5px;
+}
+
+.project-links-container{
+    margin: 15px 0;
+}
+
 #projects {
     padding: 50px 15px;
     border-bottom: 1px solid $border;
@@ -642,7 +650,7 @@ footer {
 
 .project {
     position: relative;
-    max-width: 900px;
+    max-width: 950px;
     margin: 0 auto 30px auto;
     overflow: hidden;
     background: #fff;
@@ -664,21 +672,31 @@ footer {
         font-size: 1.5em;
         font-weight: 300;
         color: $heading;
-        margin: 0 0 15px 0;
+        margin: 20px 0 5px 0;
     }
 
     p {
         color: $text;
-        margin: 0 0 15px 0;
+        margin: 0 0 5px 0;
         font-size: 0.9em;
     }
 }
+
 
 /*
     -------------------------------
     ----- 9. Skills Styles -----
     -------------------------------
 */
+.front-end-skills li a{
+    color: #1d6fa5;
+}
+.back-end-skills li a{
+    color: orangered;
+}
+.other-skills li a{
+    color: forestgreen;
+}
 
 #skills {
     padding: 50px 15px;
@@ -701,7 +719,8 @@ footer {
         margin: 7px;
         padding: 5px 10px;
         color: $heading;
-        background: darken($background-alt, 5%);
+        // background: darken($background-alt, 5%);
+        background: rgba(202, 202, 211, 0.83);
         list-style: none;
         cursor: default;
         font-size: 1.2em;
